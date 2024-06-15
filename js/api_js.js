@@ -107,9 +107,9 @@ function displayCurrent(location, currentCity) {
                           
                            
                                 <div class="icons d-flex gap-4  m-3">
-                                    <span><img src="img/icon-umberella.png" alt="umberella.icon"> 20%</span>
-                                    <span><img src=" img/icon-wind.png" alt="wind.icon"> 18km/h</span>
-                                    <span><img src="img/icon-compass.png" alt="compass.icon"> East</span>
+                                    <span><img src="/Weather_app/img/icon-umberella.png" alt="umberella.icon"> 20%</span>
+                                    <span><img src=" /Weather_app/img/icon-wind.png" alt="wind.icon"> 18km/h</span>
+                                    <span><img src="/Weather_app/img/icon-compass.png" alt="compass.icon"> East</span>
                                 </div>
                            
                     
