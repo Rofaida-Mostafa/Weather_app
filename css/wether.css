@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body {
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "Roboto", "Open Sans", sans-serif;
+
+}
+
+.header {
+    background-color: #1E202B;
+
+    h1 {
+        font-size: 16px;
+    }
+
+}
+
+#main-nav {
+    width: fit-content;
+    margin-left: -6vw;
+}
+
+.header .brand .small-text {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+
+
+.screen .menu .menu-item a {
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.screen .menu .live a{
+    padding:5px 0px;
+}
+
+.screen .menu .menu-item a.active,
+.screen .menu .menu-item a:hover {
+    border: 3px solid #009AD8;
+    color: #009AD8;
+}
+
+.hero {
+    background-image: url('/weather2/img/banner.png');
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+
+}
+
+.hero .container {
+
+    color: white;
+    position: relative;
+    padding: auto 15px;
+}
+
+
+
+form {
+    position: absolute;
+}
+
+form.form-control {
+    background-color: transparent;
+    border: none;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#search {
+    border: none;
+    background-color: #1E202B;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+}
+
+#search.form-control {
+    box-shadow: none;
+    padding: 20px 10px 10px 15px;
+}
+
+#sumbit {
+    position: absolute;
+    top: 10px;
+    right: 1vw;
+    padding: 10px 40px;
+    background-color: #009AD8;
+    color: white;
+}
+
+
+
+
+@media (max-width:600px) {
+
+    #sumbit {
+
+        right: 3.5vw;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .screen .menu .menu-item .item.active,
+    .screen .menu .menu-item .item {
+        border: none !important;
+    }
+
+    .offcanvas-header .btn-close {
+        background-color: white !important;
+    }
+
+    #main-nav .menu-item {
+        display: none;
+    }
+}
+
+@media (min-width:1001px) {
+
+    .screen #btn {
+        display: none;
+    }
+
+}
+
+
+.screen button[aria-controls="offcanvasTop"] {
+    background: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    outline: none;
+
+}
+
+.screen button[aria-controls="offcanvasTop"]:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+    background-color: #1E202B;
+    color: #fff !important;
+
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #1E202B;
+}
+
+.main-content {
+    margin-top: -10vh;
+}
+
+.main2 {
+    margin-top: -20vh;
+}
+
+.card {
+    padding: 0;
+    height: 40vh;
+}
+
+
+.card-body {
+    background-color: #323544;
+    padding: 0;
+    width: 100%;
+}
+
+div.box1 {
+    background-color: #262936;
+
+
+}
+
+.row {
+    margin: 0;
+}
+
+.card-header {
+    background-color: #2D303D;
+    padding: 0;
+    padding: 5px 0;
+}
+
+.other-cards .card-header {
+    padding: 5px 0;
+}
+
+.title1 {
+    background-color: #222531
+}
+
+div#date {
+    display: flex;
+    justify-content: end;
+}
+
+.temp {
+    line-height: 135px;
+    font-size: 90px;
+    margin-right: 30px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: -30px;
+}
+
+.other-cards .temp {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 106px;
+    color: white;
+    text-align: center;
+
+}
+
+.mintemp {
+    margin-left: 50px;
+    /* margin-bottom: 100px; */
+}
+
+.country {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #bfc1c8;
+
+}
+
+
+.status {
+    margin-top: -30px;
+
+    img {
+        width: 130%;
+    }
+}
+
+.status2 {
+    margin: 0px;
+
+}
+
+.desc {
+    color: #009ad8;
+}
+
+
+#other {
+    display: inline-block;
+}
+
+
+.main-content .main-cards {
+    display: flex;
+}
+
+
+@media (max-width:936px) {
+    .main-content .main-cards {
+        display: block;
+    }
+
+    .other-cards .card-header,
+    .main-cards .card-header {
+        padding: 5px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .main-content {
+        margin-top: -20vh;
+
+    }
+
+}
+
+
+
+@media (min-width:937px) and (max-width:1000px) {
+    .main-content .main-cards {
+        display: block;
+    }
+
+    /* .other-cards .card-header, .main-cards .card-header{
+        padding: 5px 0px;
+        margin: 0;
+        width: 100%;
+    } */
+
+}
+
+
+footer {
+    background-color: #262936;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.social-links {
+    margin-left: 50px;
+}
+
+.social-links i {
+    color: #009ad8;
+    ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.social-links a:hover i {
+    color: #fff;
+}
+
+.social-links a {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+
+    text-align: center;
+    line-height: 2;
+
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-links a:hover {
+    background: #009ad8;
+    color: white;
+}
+
+form.email {
+    position: relative;
+    width: 100%;
+}
+
+.footer .email input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.footer .email input[type="submit"] {
+    /* width: 100%; */
+    /* color: white; */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
