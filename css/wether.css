@@ -397,3 +397,10 @@ form.email {
     right: 10px;
     top: 10px;
 }
+
+@media (max-width:1200px){
+
+    .social-links a{
+        margin-top:25px
+    }
+}
