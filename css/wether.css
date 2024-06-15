@@ -59,7 +59,7 @@ body {
 }
 
 .hero {
-    background-image: url('/weather2/img/banner.png');
+    background-image: url('/Weather_app/img/banner.png');
     background-size: cover;
     padding: 70px 0;
     min-height: 350px;
