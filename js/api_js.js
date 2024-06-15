@@ -157,8 +157,8 @@ function otherDays(forecast) {
                             </div>
 
                            
-                            <div class="row mb-sm-4">
-                                <div class="desc"> 
+                            <div class="row mb-4">
+                                <div class="desc mb-2"> 
                                 ${forecast[i].day.condition.text} 
                                 </div>
                             </div> </div>
